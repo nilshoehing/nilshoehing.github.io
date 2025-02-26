@@ -206,16 +206,4 @@ footer {
     }
 }
 
-.profile-container {
-    text-align: center;
-    margin-bottom: 20px; /* Adds space below the image */
-}
 
-.profile-pic {
-    width: 150px; /* Adjust to the desired size */
-    height: 150px; /* Keep the image square */
-    border-radius: 50%; /* Makes the image circular */
-    object-fit: cover; /* Ensures the image fills the circle */
-    border: 3px solid #fff; /* Adds a border around the image */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds shadow for effect */
-}
