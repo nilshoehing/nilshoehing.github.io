@@ -5,30 +5,13 @@ title: About
 
 {% include header.html %}
 
-<style>
-/* Center the profile picture container */
-.profile-container {
-    text-align: center; /* Centers the image horizontally */
-    margin-bottom: 20px; /* Adds space below the image */
-}
 
-/* Style for the profile image */
-.profile-pic {
-    width: 250px; /* Adjust to your preferred width */
-    height: 200px; /* Adjust to your preferred height */
-    border-radius: 15px; /* Rounds the corners */
-    object-fit: cover; /* Ensures the image covers the area without stretching */
-    border: 4px solid #fff; /* Adds a white border around the image */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow for depth */
-}
-
-</style>
 
 <main>
     <h1>About Me</h1>
     <!-- Profile Picture -->
     <div class="profile-container">
-        <img src="/assets/images/profile.png" alt="Profile Picture" class="profile-pic">
+        <img src="/assets/images/profile.png" alt="Profile Picture" class="featured-image">
     </div>
     <p>{{ site.about }}</p>
 </main>
