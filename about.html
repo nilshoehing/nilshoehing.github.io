@@ -5,14 +5,18 @@ title: About
 
 {% include header.html %}
 
-
+<style>
+.profile-image {
+    width: 25%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}</style>
 
 <main>
     <h1>About Me</h1>
-    <!-- Profile Picture -->
-    <div class="profile-container">
-        <img src="/assets/images/profile.png" alt="Profile Picture" class="profile-image">
-    </div>
+    <img src="/assets/images/profile.png" alt="Profile Picture" class="profile-image">
     <p>{{ site.about }}</p>
 </main>
 
