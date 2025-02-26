@@ -1,0 +1,39 @@
+# Site settings
+title: My Clean Blog
+description: Thoughts, stories and ideas.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+about: "Welcome to my blog! I write about technology, design, and my journey as a developer. Feel free to explore and connect with me on social media."
+
+# Social media links
+social_links:
+  - name: Twitter
+    url: https://twitter.com/username
+  - name: GitHub
+    url: https://github.com/username
+  - name: LinkedIn
+    url: https://linkedin.com/in/username
+  - name: RSS
+    url: /feed.xml
+
+# Build settings
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+# Pagination
+paginate: 3
+paginate_path: "/page/:num/"
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md

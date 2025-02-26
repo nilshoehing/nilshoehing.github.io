@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+{% include header.html %}
+
+<main>
+    <article class="post">
+        {% if page.featured_image %}
+        <img src="{{ page.featured_image | relative_url }}" alt="Featured Image" class="featured-image">
+        {% else %}
+        <img src="/assets/images/placeholder.jpg" alt="Featured Image" class="featured-image">
+        {% endif %}
+        
+        <h1 class="post-title">{{ page.title }}</h1>
+        <p class="post-meta">{{ page.date | date: "%B %d, %Y" }} · {{ page.read_time }} min read</p>
+        
+        <div class="post-content">
+            {{ content }}
+        </div>
+        
+        {% if page.categories.size > 0 %}
+        <div class="post-categories">
+            <h3>Categories:</h3>
+            <ul>
+                {% for category in page.categories %}
+                <li><a href="{{ site.baseurl }}/categories/{{ category | slugify }}">{{ category }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+    </article>
+</main>
+
+{% include sidebar.html %}
+{% include footer.html %}
