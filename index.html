@@ -1,0 +1,43 @@
+---
+layout: default
+title: Home
+---
+
+{% include header.html %}
+
+<main>
+    {% for post in paginator.posts %}
+    <article class="post">
+        {% if post.featured_image %}
+        <img src="{{ post.featured_image | relative_url }}" alt="Featured Image" class="featured-image">
+        {% else %}
+        <img src="/assets/images/placeholder.jpg" alt="Featured Image" class="featured-image">
+        {% endif %}
+        <h2 class="post-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        <p class="post-meta">{{ post.date | date: "%B %d, %Y" }} · {{ post.read_time }} min read</p>
+        <div class="post-excerpt">
+            {{ post.excerpt }}
+        </div>
+        <a href="{{ post.url | relative_url }}" class="read-more">Continue reading →</a>
+    </article>
+    {% endfor %}
+    
+    {% if paginator.total_pages > 1 %}
+    <div class="pagination">
+        {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path | relative_url }}" class="prev-page">← Previous Page</a>
+        {% else %}
+        <span class="prev-page disabled">← Previous Page</span>
+        {% endif %}
+        
+        {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path | relative_url }}" class="next-page">Next Page →</a>
+        {% else %}
+        <span class="next-page disabled">Next Page →</span>
+        {% endif %}
+    </div>
+    {% endif %}
+</main>
+
+{% include sidebar.html %}
+{% include footer.html %}
