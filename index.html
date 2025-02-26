@@ -1,259 +1,48 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Blog</title>
-    <style>
-        :root {
-            --primary-color: #4263eb;
-            --text-color: #333;
-            --light-gray: #f8f9fa;
-            --border-color: #e9ecef;
-            --footer-color: #495057;
-        }
-        
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-            color: var(--text-color);
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-        
-        header {
-            padding: 40px 0 20px;
-            text-align: center;
-            border-bottom: 1px solid var(--border-color);
-            margin-bottom: 40px;
-        }
-        
-        .site-title {
-            font-size: 2.5rem;
-            font-weight: 700;
-            margin-bottom: 10px;
-        }
-        
-        .site-description {
-            font-size: 1.2rem;
-            color: #6c757d;
-            margin-bottom: 20px;
-        }
-        
-        nav {
-            display: flex;
-            justify-content: center;
-            margin-bottom: 20px;
-        }
-        
-        nav a {
-            margin: 0 15px;
-            color: var(--text-color);
-            text-decoration: none;
-            font-weight: 500;
-            transition: color 0.2s;
-        }
-        
-        nav a:hover {
-            color: var(--primary-color);
-        }
-        
-        .post {
-            margin-bottom: 60px;
-        }
-        
-        .post-title {
-            font-size: 2rem;
-            margin-bottom: 10px;
-        }
-        
-        .post-title a {
-            color: var(--text-color);
-            text-decoration: none;
-            transition: color 0.2s;
-        }
-        
-        .post-title a:hover {
-            color: var(--primary-color);
-        }
-        
-        .post-meta {
-            color: #6c757d;
-            font-size: 0.9rem;
-            margin-bottom: 20px;
-        }
-        
-        .post-excerpt {
-            margin-bottom: 20px;
-        }
-        
-        .read-more {
-            display: inline-block;
-            color: var(--primary-color);
-            text-decoration: none;
-            font-weight: 500;
-            transition: opacity 0.2s;
-        }
-        
-        .read-more:hover {
-            opacity: 0.8;
-        }
-        
-        .pagination {
-            display: flex;
-            justify-content: space-between;
-            margin: 40px 0;
-        }
-        
-        .pagination a {
-            color: var(--primary-color);
-            text-decoration: none;
-            font-weight: 500;
-            transition: opacity 0.2s;
-        }
-        
-        .pagination a:hover {
-            opacity: 0.8;
-        }
-        
-        .featured-image {
-            width: 100%;
-            height: 250px;
-            object-fit: cover;
-            border-radius: 5px;
-            margin-bottom: 20px;
-        }
-        
-        .sidebar {
-            margin-top: 40px;
-            background-color: var(--light-gray);
-            padding: 20px;
-            border-radius: 5px;
-        }
-        
-        .sidebar h3 {
-            font-size: 1.3rem;
-            margin-bottom: 15px;
-        }
-        
-        .sidebar-section {
-            margin-bottom: 30px;
-        }
-        
-        .sidebar-section:last-child {
-            margin-bottom: 0;
-        }
-        
-        .categories-list, .recent-posts-list {
-            list-style: none;
-        }
-        
-        .categories-list li, .recent-posts-list li {
-            margin-bottom: 10px;
-        }
-        
-        .categories-list a, .recent-posts-list a {
-            color: var(--text-color);
-            text-decoration: none;
-            transition: color 0.2s;
-        }
-        
-        .categories-list a:hover, .recent-posts-list a:hover {
-            color: var(--primary-color);
-        }
-        
-        footer {
-            text-align: center;
-            padding: 40px 0;
-            margin-top: 60px;
-            border-top: 1px solid var(--border-color);
-            color: var(--footer-color);
-            font-size: 0.9rem;
-        }
-        
-        .social-links {
-            display: flex;
-            justify-content: center;
-            margin-top: 20px;
-        }
-        
-        .social-links a {
-            margin: 0 10px;
-            color: var(--footer-color);
-            text-decoration: none;
-            transition: color 0.2s;
-        }
-        
-        .social-links a:hover {
-            color: var(--primary-color);
-        }
-        
-        @media (max-width: 768px) {
-            .site-title {
-                font-size: 2rem;
-            }
-            
-            .post-title {
-                font-size: 1.7rem;
-            }
-            
-            .featured-image {
-                height: 200px;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
-        <h1 class="site-title">My Clean Blog</h1>
-        <p class="site-description">Thoughts, stories and ideas.</p>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="archive.html">Archive</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
+    <!-- Header will be loaded here -->
+    <div id="header-placeholder"></div>
     
     <main>
         <article class="post">
             <img src="/api/placeholder/800/250" alt="Featured Image" class="featured-image">
-            <h2 class="post-title"><a href="post.html">Getting Started with GitHub Pages</a></h2>
+            <h2 class="post-title"><a href="posts/getting-started.html">Getting Started with GitHub Pages</a></h2>
             <p class="post-meta">February 26, 2025 · 5 min read</p>
             <div class="post-excerpt">
                 <p>GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub, optionally runs the files through a build process, and publishes a website.</p>
                 <p>In this guide, we'll explore how to set up a blog using GitHub Pages and some best practices to follow...</p>
             </div>
-            <a href="post.html" class="read-more">Continue reading →</a>
+            <a href="posts/getting-started.html" class="read-more">Continue reading →</a>
         </article>
         
         <article class="post">
             <img src="/api/placeholder/800/250" alt="Featured Image" class="featured-image">
-            <h2 class="post-title"><a href="post.html">The Beauty of Minimalist Design</a></h2>
+            <h2 class="post-title"><a href="posts/minimalist-design.html">The Beauty of Minimalist Design</a></h2>
             <p class="post-meta">February 24, 2025 · 3 min read</p>
             <div class="post-excerpt">
                 <p>Minimalism in web design focuses on simplicity and removing unnecessary elements. This approach can lead to faster load times, better user experience, and a cleaner aesthetic.</p>
                 <p>Let's dive into some principles of minimalist design and how you can apply them to your own projects...</p>
             </div>
-            <a href="post.html" class="read-more">Continue reading →</a>
+            <a href="posts/minimalist-design.html" class="read-more">Continue reading →</a>
         </article>
         
         <article class="post">
             <img src="/api/placeholder/800/250" alt="Featured Image" class="featured-image">
-            <h2 class="post-title"><a href="post.html">Writing Good Technical Content</a></h2>
+            <h2 class="post-title"><a href="posts/technical-content.html">Writing Good Technical Content</a></h2>
             <p class="post-meta">February 20, 2025 · 4 min read</p>
             <div class="post-excerpt">
                 <p>Creating engaging technical content requires a balance of clarity, depth, and accessibility. Whether you're writing documentation, tutorials, or blog posts, there are certain principles that can help your content shine.</p>
                 <p>In this post, we'll look at strategies for creating technical content that resonates with readers...</p>
             </div>
-            <a href="post.html" class="read-more">Continue reading →</a>
+            <a href="posts/technical-content.html" class="read-more">Continue reading →</a>
         </article>
         
         <div class="pagination">
@@ -282,22 +71,17 @@
         <div class="sidebar-section">
             <h3>Recent Posts</h3>
             <ul class="recent-posts-list">
-                <li><a href="#">Getting Started with GitHub Pages</a></li>
-                <li><a href="#">The Beauty of Minimalist Design</a></li>
-                <li><a href="#">Writing Good Technical Content</a></li>
+                <li><a href="posts/getting-started.html">Getting Started with GitHub Pages</a></li>
+                <li><a href="posts/minimalist-design.html">The Beauty of Minimalist Design</a></li>
+                <li><a href="posts/technical-content.html">Writing Good Technical Content</a></li>
                 <li><a href="#">Optimizing Your Workflow</a></li>
             </ul>
         </div>
     </aside>
     
-    <footer>
-        <p>© 2025 My Clean Blog. All rights reserved.</p>
-        <div class="social-links">
-            <a href="#">Twitter</a>
-            <a href="#">GitHub</a>
-            <a href="#">LinkedIn</a>
-            <a href="#">RSS</a>
-        </div>
-    </footer>
+    <!-- Footer will be loaded here -->
+    <div id="footer-placeholder"></div>
+    
+    <script src="js/include.js"></script>
 </body>
 </html>
