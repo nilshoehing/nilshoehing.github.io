@@ -6,19 +6,33 @@ title: About
 {% include header.html %}
 
 <style>
-.profile-image {
-    width: 25%;
-    height: 250px;
-    object-fit: cover;
-    border-radius: 5px;
-    margin-bottom: 20px;
-}</style>
-
-<main>
-    <h1>About Me</h1>
-    <img src="/assets/images/profile.png" alt="Profile Picture" class="profile-image">
-    <p>{{ site.about }}</p>
-</main>
+    .profile-container {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    
+    .profile-image {
+        width: 25%;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 15px; /* Increased radius for more rounded corners */
+        margin-right: 20px; /* Space between image and text */
+    }
+    
+    .profile-text {
+        max-width: 70%; /* Limiting text width to balance with image */
+    }
+    </style>
+    
+    <main>
+        <h1>About Me</h1>
+        <div class="profile-container">
+            <img src="/assets/images/profile.png" alt="Profile Picture" class="profile-image">
+            <p class="profile-text">{{ site.about }}</p>
+        </div>
+    </main>
+    
 
 {% include sidebar.html %}
 {% include footer.html %}
