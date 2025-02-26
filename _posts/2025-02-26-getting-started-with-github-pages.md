@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Getting Started with GitHub Pages"
+title: "TEST - Getting Started with GitHub Pages"
 date: 2025-02-26
 categories: [Web Development, GitHub]
 featured_image: /assets/images/github-pages.jpg
