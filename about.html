@@ -6,24 +6,20 @@ title: About
 {% include header.html %}
 
 <style>
+/* Center the profile picture container */
 .profile-container {
-    text-align: center;
-    margin-bottom: 20px;
-    overflow: hidden; /* Ensures the container clips the image neatly */
-    width: 150px; /* Set fixed container size */
-    height: 150px; /* Ensure the container is a perfect square */
-    border-radius: 50%; /* Makes the container round */
-    position: relative;
+    text-align: center; /* Centers the image horizontally */
+    margin-bottom: 20px; /* Adds space below the image */
 }
 
+/* Style for the profile image */
 .profile-pic {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); /* Centers the image in the circle */
-    width: 100%; /* Image will fill the entire container */
-    height: 100%; /* Image will fill the entire container */
-    object-fit: cover; /* Ensures the image fills the circle without distortion */
+    width: 250px; /* Adjust to your preferred width */
+    height: 200px; /* Adjust to your preferred height */
+    border-radius: 15px; /* Rounds the corners */
+    object-fit: cover; /* Ensures the image covers the area without stretching */
+    border: 4px solid #fff; /* Adds a white border around the image */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow for depth */
 }
 
 </style>
