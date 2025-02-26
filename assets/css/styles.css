@@ -206,4 +206,12 @@ footer {
     }
 }
 
+.profile-image {
+    width: 25%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
 
