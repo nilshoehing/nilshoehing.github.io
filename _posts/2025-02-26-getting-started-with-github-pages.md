@@ -38,6 +38,14 @@ To install Jekyll locally, you'll need Ruby and RubyGems installed. Then, you ca
 gem install jekyll bundler
 ```
 
+<p align="center">
+  <img src="/assets/images/benchmark-blue.webp" alt="Centered Image" width="300">
+</p>
+
+<p align="center">
+  <img src="/assets/images/placeholder.jpg" alt="Centered Image" width="300">
+</p>
+
 ### Creating a New Jekyll Site
 
 To create a new Jekyll site, run:
@@ -50,7 +58,7 @@ bundle exec jekyll serve
 
 Your site will be available at `http://localhost:4000`.
   
-  
+
 ## Conclusion
 
 GitHub Pages is a fantastic way to host your static websites for free. Combined with Jekyll, it provides a powerful platform for creating and maintaining blogs and documentation sites.

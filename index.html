@@ -14,11 +14,10 @@ title: Home
         <img src="/assets/images/placeholder.jpg" alt="Featured Image" class="featured-image">
         {% endif %}
         <h2 class="post-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-        <p class="post-meta">{{ post.date | date: "%B %d, %Y" }} · {{ post.read_time }} min read</p>
+        <p class="post-meta">{{ post.date | date: "%B %d, %Y" }} </p>
         <div class="post-excerpt">
             {{ post.excerpt }}
         </div>
-        <a href="{{ post.url | relative_url }}" class="read-more">Continue reading →</a>
     </article>
     {% endfor %}
     
