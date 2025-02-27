@@ -224,11 +224,11 @@ footer {
     padding-left: 2em; /* Indents the list */
 }
 
-/*
+
 .post-content h1, 
 .post-content h2 {
-    border-bottom: 2px solid #ddd; 
+    border-bottom: 1px solid var(--border-color);
     padding-bottom: 0.5em; 
     margin-bottom: 1em; 
 } 
-*/
+
