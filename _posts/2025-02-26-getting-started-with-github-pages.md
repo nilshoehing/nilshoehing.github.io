@@ -11,10 +11,12 @@ excerpt_separator: <!--more-->
 GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub, optionally runs the files through a build process, and publishes a website.
 
 <!--more-->
+  
 
 ## What is GitHub Pages?
 
 GitHub Pages allows you to host static websites directly from a GitHub repository. It's free to use and is a great platform for personal websites, project documentation, or blogs.
+  
 
 ## Setting Up Your GitHub Pages Site
 
@@ -47,7 +49,8 @@ bundle exec jekyll serve
 ```
 
 Your site will be available at `http://localhost:4000`.
-
+  
+  
 ## Conclusion
 
 GitHub Pages is a fantastic way to host your static websites for free. Combined with Jekyll, it provides a powerful platform for creating and maintaining blogs and documentation sites.
