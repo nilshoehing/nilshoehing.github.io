@@ -217,4 +217,10 @@ footer {
     padding-left: 2em; /* Indents the list */
 }
 
+.post-content h1, 
+.post-content h2 {
+    border-bottom: 2px solid #ddd; /* Thin gray line */
+    padding-bottom: 0.5em; /* Spacing between text and line */
+    margin-bottom: 1em; /* Space below the heading */
+}
 
