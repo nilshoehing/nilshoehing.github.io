@@ -3,7 +3,7 @@ layout: post
 title: "TEST - Getting Started with GitHub Pages"
 date: 2025-02-26
 categories: [Web Development, GitHub]
-featured_image: /assets/images/github-pages.jpg
+featured_image: /assets/images/benchmark-blue.webp
 read_time: 5
 excerpt_separator: <!--more-->
 ---
