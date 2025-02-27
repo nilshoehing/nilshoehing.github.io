@@ -212,6 +212,12 @@ footer {
 }
 
 
+h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+
 .post-content ol,
 .post-content ul {
     padding-left: 2em; /* Indents the list */
