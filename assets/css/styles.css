@@ -15,6 +15,10 @@ ul, ol {
     padding-left: 2em;
     margin-bottom: 1em;
 }
+h1, h2 {
+    margin: 0;
+    padding: 0;
+}
 
 
 body {
@@ -212,10 +216,7 @@ footer {
 }
 
 
-h1, h2 {
-    margin: 0;
-    padding: 0;
-}
+
 
 
 .post-content ol,
@@ -223,10 +224,11 @@ h1, h2 {
     padding-left: 2em; /* Indents the list */
 }
 
+/*
 .post-content h1, 
 .post-content h2 {
-    border-bottom: 2px solid #ddd; /* Thin gray line */
-    padding-bottom: 0.5em; /* Spacing between text and line */
-    margin-bottom: 1em; /* Space below the heading */
-}
-
+    border-bottom: 2px solid #ddd; 
+    padding-bottom: 0.5em; 
+    margin-bottom: 1em; 
+} 
+*/
