@@ -232,3 +232,7 @@ footer {
     margin-bottom: 1em; 
 } 
 
+.post-content p {
+    margin-bottom: 1em; /* Adjust this value for more/less space */
+}
+
