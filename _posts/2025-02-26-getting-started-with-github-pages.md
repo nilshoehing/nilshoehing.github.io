@@ -39,11 +39,7 @@ gem install jekyll bundler
 ```
 
 <p align="center">
-  <img src="/assets/images/benchmark-blue.webp" alt="Centered Image" width="300">
-</p>
-
-<p align="center">
-  <img src="/assets/images/placeholder.jpg" alt="Centered Image" width="300">
+  <img src="/assets/images/benchmark-blue.webp" alt="Centered Image" width="768">
 </p>
 
 ### Creating a New Jekyll Site
