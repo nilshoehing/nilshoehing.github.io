@@ -64,8 +64,8 @@ nav a {
 
 nav a:hover{
     color: darkgray;
-    font-size: 1.1em;
-    transition: 0.2s ease-in-out;
+    /*font-size: 1.1em;
+    transition: 0.2s ease-in-out;*/
 }
 
 nav a.active{
