@@ -1,6 +1,6 @@
 # Site settings
-title: Nils Höhing
-description: Vision-Language Models and Benchmarking
+title: Vision-Language Models and Benchmarking
+description: Nils Höhing
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 about: "Hi, I am a PhD candidate in spatial understanding for Vision-Language Models at University College Dublin. Currently I am especially interested in benchmarks and evaluation."
