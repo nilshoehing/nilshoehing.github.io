@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #000000;
+    --primary-color: #4263eb;
     --text-color: #333;
     --light-gray: #f8f9fa;
     --border-color: #e9ecef;
@@ -19,10 +19,6 @@ h1, h2 {
     margin: 0;
     padding: 0;
 }
-p {
-    margin-bottom: 1em; /* Change from 0 to 1em */
-}
-
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -66,9 +62,16 @@ nav a {
     transition: color 0.2s;
 }
 
-nav a:hover, nav a.active {
+nav a:hover{
     color: var(--primary-color);
 }
+
+nav a.active{
+    color: black;
+    font-weight: bold;
+}
+
+
 
 .post {
     margin-bottom: 60px;
