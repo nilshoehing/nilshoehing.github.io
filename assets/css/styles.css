@@ -145,6 +145,12 @@ nav a.active:hover {
     object-fit: cover;
     border-radius: 5px;
     margin-bottom: 20px;
+    transition: 0.3s ease-in-out; /* Smooth transition effect */
+}
+
+.featured-image:hover {
+    opacity: 0.7; /* Adjust transparency (1 = fully visible, 0 = fully transparent) */
+    filter: grayscale(50%); /* Makes the image partially gray */
 }
 
 .sidebar {
