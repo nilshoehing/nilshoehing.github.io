@@ -64,8 +64,6 @@ nav a {
 
 nav a:hover{
     color: darkgray;
-    /*font-size: 1.1em;
-    transition: 0.2s ease-in-out;*/
 }
 
 nav a.active{
@@ -95,7 +93,7 @@ nav a.active:hover {
 }
 
 .post-title a:hover {
-    color: var(--primary-color);
+    color: darkgray;
 }
 
 .post-meta {
@@ -184,7 +182,7 @@ nav a.active:hover {
 }
 
 .categories-list a:hover, .recent-posts-list a:hover {
-    color: var(--primary-color);
+    color: darkgray;
 }
 
 footer {
@@ -210,7 +208,7 @@ footer {
 }
 
 .social-links a:hover {
-    color: var(--primary-color);
+    color: darkgray;
 }
 
 @media (max-width: 768px) {
