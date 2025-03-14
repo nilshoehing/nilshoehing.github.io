@@ -139,6 +139,14 @@ nav a.active:hover {
     color: #ced4da;
 }
 
+.featured-image-simple {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
 .featured-image {
     width: 100%;
     height: 250px;
@@ -227,6 +235,10 @@ footer {
     }
     
     .featured-image {
+        height: 200px;
+    }
+
+    .featured-image-simple {
         height: 200px;
     }
 }
