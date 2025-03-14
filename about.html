@@ -11,6 +11,7 @@ title: About
         align-items: center;
         margin-bottom: 20px;
         margin-top: 20px;
+        flex-direction: row; /* Default layout for larger screens */
     }
     
     .profile-image {
@@ -24,14 +25,33 @@ title: About
     .profile-text {
         max-width: 70%; /* Limiting text width to balance with image */
     }
-    </style>
-    
-    <main>
-        <div class="profile-container">
-            <img src="/assets/images/profilecut.png" alt="Profile Picture" class="profile-image">
-            <p class="profile-text">{{ site.about }}</p>
-        </div>
-    </main>
+
+    /* Media Query for mobile devices */
+    @media (max-width: 768px) {
+        .profile-container {
+            flex-direction: column; /* Stack the image above the text on smaller screens */
+            align-items: center; /* Center the content for better alignment */
+        }
+
+        .profile-image {
+            width: 80%; /* Make the image larger on mobile, you can adjust this percentage */
+            margin-right: 0; /* Remove margin for the stacked layout */
+            margin-bottom: 20px; /* Space between image and text */
+        }
+
+        .profile-text {
+            max-width: 90%; /* Allow the text to take more space on mobile */
+        }
+    }
+</style>
+
+<main>
+    <div class="profile-container">
+        <img src="/assets/images/profilecut.png" alt="Profile Picture" class="profile-image">
+        <p class="profile-text">{{ site.about }}</p>
+    </div>
+</main>
+
     
 
 {% include sidebar.html %}
