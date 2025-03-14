@@ -10,11 +10,11 @@ title: Home
     <article class="post">
         {% if post.featured_image %}
         <a href="{{ post.url | relative_url }}">
-            <img src="{{ post.featured_image | relative_url }}" alt="Featured Image" class="featured-image" style="transition: 0.3s ease-in-out;" onmouseover="this.style.opacity='0.7'; this.style.filter='grayscale(50%)';" onmouseout="this.style.opacity='1'; this.style.filter='grayscale(0%)';">
+            <img src="{{ post.featured_image | relative_url }}" alt="Featured Image" class="featured-image" style="transition: 0.2s ease-in-out;" onmouseover="this.style.opacity='0.8'; this.style.filter='grayscale(30%)';" onmouseout="this.style.opacity='1'; this.style.filter='grayscale(0%)';">
         </a>
         {% else %}
         <a href="{{ post.url | relative_url }}">
-            <img src="/assets/images/placeholder.jpg" alt="Featured Image" class="featured-image" style="transition: 0.3s ease-in-out;" onmouseover="this.style.opacity='0.7'; this.style.filter='grayscale(50%)';" onmouseout="this.style.opacity='1'; this.style.filter='grayscale(0%)';">
+            <img src="/assets/images/placeholder.jpg" alt="Featured Image" class="featured-image" style="transition: 0.2s ease-in-out;" onmouseover="this.style.opacity='0.8'; this.style.filter='grayscale(30%)';" onmouseout="this.style.opacity='1'; this.style.filter='grayscale(0%)';">
         </a>
         {% endif %}
         <h2 class="post-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
