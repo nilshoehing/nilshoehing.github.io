@@ -6,14 +6,15 @@ layout: default
 
 <main>
     <article class="post">
+        
+        <h1 class="post-title">{{ page.title }}</h1>
+        <p class="post-meta">{{ page.date | date: "%B %d, %Y" }}</p>
+
         {% if page.featured_image %}
         <img src="{{ page.featured_image | relative_url }}" alt="Featured Image" class="featured-image">
         {% else %}
         <img src="/assets/images/placeholder.jpg" alt="Featured Image" class="featured-image">
         {% endif %}
-        
-        <h1 class="post-title">{{ page.title }}</h1>
-        <p class="post-meta">{{ page.date | date: "%B %d, %Y" }}</p>
         
         <div class="post-content">
             {{ content }}
