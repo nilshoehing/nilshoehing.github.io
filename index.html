@@ -9,15 +9,16 @@ title: Home
     {% for post in paginator.posts %}
     <article class="post">
         {% if post.featured_image %}
-        <img src="{{ post.featured_image | relative_url }}" alt="Featured Image" class="featured-image">
+        <a href="{{ post.url | relative_url }}">
+            <img src="{{ post.featured_image | relative_url }}" alt="Featured Image" class="featured-image">
+        </a>
         {% else %}
-        <img src="/assets/images/placeholder.jpg" alt="Featured Image" class="featured-image">
+        <a href="{{ post.url | relative_url }}">
+            <img src="/assets/images/placeholder.jpg" alt="Featured Image" class="featured-image">
+        </a>
         {% endif %}
         <h2 class="post-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
         <p class="post-meta">{{ post.date | date: "%B %d, %Y" }} </p>
-        <div class="post-excerpt">
-            {{ post.excerpt }}
-        </div>
     </article>
     {% endfor %}
     
