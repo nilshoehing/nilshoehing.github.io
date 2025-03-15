@@ -83,9 +83,9 @@ nav a.active:hover {
 
 .post-title {
     font-size: 2rem;
-    margin-bottom: 10px;
-    margin-bottom: 2px !important; /* Forces a smaller gap */
-    line-height: 1.1 !important; /* Reduces space inside the title itself */
+    /*margin-bottom: 10px;*/
+    margin-bottom: 2px; 
+    line-height: 1.1; 
 }
 
 .post-title a {
