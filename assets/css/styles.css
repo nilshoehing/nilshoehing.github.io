@@ -100,11 +100,13 @@ nav a.active:hover {
     color: #6c757d;
     font-size: 0.9rem;
     margin-bottom: 20px;
+    margin-top: 0;
 }
 
 .post-excerpt {
     margin-bottom: 20px;
 }
+
 
 .read-more {
     display: inline-block;
