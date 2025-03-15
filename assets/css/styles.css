@@ -90,6 +90,8 @@ nav a.active:hover {
     color: var(--text-color);
     text-decoration: none;
     transition: color 0.2s;
+    margin-bottom: 5px; /* Reduce bottom margin to bring it closer to the post-meta */
+    line-height: 1.2; /* Adjust line height for a more compact look */
 }
 
 .post-title a:hover {
