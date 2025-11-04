@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-11-04T15:32:11+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Vision-Language Models and Benchmarking</title><subtitle>Nils Höhing</subtitle><entry><title type="html">TEST - Getting Started with GitHub Pages</title><link href="http://localhost:4000/2025/02/26/getting-started-with-github-pages/" rel="alternate" type="text/html" title="TEST - Getting Started with GitHub Pages" /><published>2025-02-26T00:00:00+00:00</published><updated>2025-02-26T00:00:00+00:00</updated><id>http://localhost:4000/2025/02/26/getting-started-with-github-pages</id><content type="html" xml:base="http://localhost:4000/2025/02/26/getting-started-with-github-pages/"><![CDATA[<p>GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub, optionally runs the files through a build process, and publishes a website.</p>
+
+<!--more-->
+
+<h2 id="what-is-github-pages">What is GitHub Pages?</h2>
+
+<p>GitHub Pages allows you to host static websites directly from a GitHub repository. It’s free to use and is a great platform for personal websites, project documentation, or blogs.</p>
+
+<h2 id="setting-up-your-github-pages-site">Setting Up Your GitHub Pages Site</h2>
+
+<ol>
+  <li>Create a new repository on GitHub named <code class="language-plaintext highlighter-rouge">username.github.io</code>, where <code class="language-plaintext highlighter-rouge">username</code> is your GitHub username.</li>
+  <li>Clone the repository to your local machine.</li>
+  <li>Add your HTML, CSS, and JavaScript files to the repository.</li>
+  <li>Commit and push your changes.</li>
+  <li>Your site will be available at <code class="language-plaintext highlighter-rouge">https://username.github.io</code>.</li>
+</ol>
+
+<h2 id="using-jekyll-with-github-pages">Using Jekyll with GitHub Pages</h2>
+
+<p>GitHub Pages has built-in support for Jekyll, a static site generator. This makes it easy to create a blog or website without the need for a database or server-side code.</p>
+
+<h3 id="installing-jekyll-locally">Installing Jekyll Locally</h3>
+
+<p>To install Jekyll locally, you’ll need Ruby and RubyGems installed. Then, you can install Jekyll with:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem <span class="nb">install </span>jekyll bundler
+</code></pre></div></div>
+
+<p align="center">
+  <img src="/assets/images/benchmark-blue.webp" alt="Centered Image" width="768" />
+</p>
+
+<h3 id="creating-a-new-jekyll-site">Creating a New Jekyll Site</h3>
+
+<p>To create a new Jekyll site, run:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jekyll new my-blog
+<span class="nb">cd </span>my-blog
+bundle <span class="nb">exec </span>jekyll serve
+</code></pre></div></div>
+
+<p>Your site will be available at <code class="language-plaintext highlighter-rouge">http://localhost:4000</code>.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>GitHub Pages is a fantastic way to host your static websites for free. Combined with Jekyll, it provides a powerful platform for creating and maintaining blogs and documentation sites.</p>]]></content><author><name></name></author><category term="Web Development" /><category term="GitHub" /><summary type="html"><![CDATA[GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub, optionally runs the files through a build process, and publishes a website.]]></summary></entry><entry><title type="html">TEST - Getting Started with GitHub Pages</title><link href="http://localhost:4000/2025/02/26/test2-heading/" rel="alternate" type="text/html" title="TEST - Getting Started with GitHub Pages" /><published>2025-02-26T00:00:00+00:00</published><updated>2025-02-26T00:00:00+00:00</updated><id>http://localhost:4000/2025/02/26/test2-heading</id><content type="html" xml:base="http://localhost:4000/2025/02/26/test2-heading/"><![CDATA[<p>GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub, optionally runs the files through a build process, and publishes a website.</p>
+
+<!--more-->
+
+<h2 id="what-is-github-pages">What is GitHub Pages?</h2>
+
+<p>GitHub Pages allows you to host static websites directly from a GitHub repository. It’s free to use and is a great platform for personal websites, project documentation, or blogs.</p>
+
+<h2 id="setting-up-your-github-pages-site">Setting Up Your GitHub Pages Site</h2>
+
+<ol>
+  <li>Create a new repository on GitHub named <code class="language-plaintext highlighter-rouge">username.github.io</code>, where <code class="language-plaintext highlighter-rouge">username</code> is your GitHub username.</li>
+  <li>Clone the repository to your local machine.</li>
+  <li>Add your HTML, CSS, and JavaScript files to the repository.</li>
+  <li>Commit and push your changes.</li>
+  <li>Your site will be available at <code class="language-plaintext highlighter-rouge">https://username.github.io</code>.</li>
+</ol>
+
+<h2 id="using-jekyll-with-github-pages">Using Jekyll with GitHub Pages</h2>
+
+<p>GitHub Pages has built-in support for Jekyll, a static site generator. This makes it easy to create a blog or website without the need for a database or server-side code.</p>
+
+<h3 id="installing-jekyll-locally">Installing Jekyll Locally</h3>
+
+<p>To install Jekyll locally, you’ll need Ruby and RubyGems installed. Then, you can install Jekyll with:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem <span class="nb">install </span>jekyll bundler
+</code></pre></div></div>
+
+<p align="center">
+  <img src="/assets/images/benchmark-blue.webp" alt="Centered Image" width="768" />
+</p>
+
+<h3 id="creating-a-new-jekyll-site">Creating a New Jekyll Site</h3>
+
+<p>To create a new Jekyll site, run:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jekyll new my-blog
+<span class="nb">cd </span>my-blog
+bundle <span class="nb">exec </span>jekyll serve
+</code></pre></div></div>
+
+<p>Your site will be available at <code class="language-plaintext highlighter-rouge">http://localhost:4000</code>.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>GitHub Pages is a fantastic way to host your static websites for free. Combined with Jekyll, it provides a powerful platform for creating and maintaining blogs and documentation sites.</p>]]></content><author><name></name></author><category term="Web Development" /><category term="GitHub" /><summary type="html"><![CDATA[GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub, optionally runs the files through a build process, and publishes a website.]]></summary></entry><entry><title type="html">TEST - Getting Started with GitHub Pages</title><link href="http://localhost:4000/2025/02/26/test3-heading/" rel="alternate" type="text/html" title="TEST - Getting Started with GitHub Pages" /><published>2025-02-26T00:00:00+00:00</published><updated>2025-02-26T00:00:00+00:00</updated><id>http://localhost:4000/2025/02/26/test3-heading</id><content type="html" xml:base="http://localhost:4000/2025/02/26/test3-heading/"><![CDATA[<p>GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub, optionally runs the files through a build process, and publishes a website.</p>
+
+<!--more-->
+
+<h2 id="what-is-github-pages">What is GitHub Pages?</h2>
+
+<p>GitHub Pages allows you to host static websites directly from a GitHub repository. It’s free to use and is a great platform for personal websites, project documentation, or blogs.</p>
+
+<h2 id="setting-up-your-github-pages-site">Setting Up Your GitHub Pages Site</h2>
+
+<ol>
+  <li>Create a new repository on GitHub named <code class="language-plaintext highlighter-rouge">username.github.io</code>, where <code class="language-plaintext highlighter-rouge">username</code> is your GitHub username.</li>
+  <li>Clone the repository to your local machine.</li>
+  <li>Add your HTML, CSS, and JavaScript files to the repository.</li>
+  <li>Commit and push your changes.</li>
+  <li>Your site will be available at <code class="language-plaintext highlighter-rouge">https://username.github.io</code>.</li>
+</ol>
+
+<h2 id="using-jekyll-with-github-pages">Using Jekyll with GitHub Pages</h2>
+
+<p>GitHub Pages has built-in support for Jekyll, a static site generator. This makes it easy to create a blog or website without the need for a database or server-side code.</p>
+
+<h3 id="installing-jekyll-locally">Installing Jekyll Locally</h3>
+
+<p>To install Jekyll locally, you’ll need Ruby and RubyGems installed. Then, you can install Jekyll with:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem <span class="nb">install </span>jekyll bundler
+</code></pre></div></div>
+
+<p align="center">
+  <img src="/assets/images/benchmark-blue.webp" alt="Centered Image" width="768" />
+</p>
+
+<h3 id="creating-a-new-jekyll-site">Creating a New Jekyll Site</h3>
+
+<p>To create a new Jekyll site, run:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jekyll new my-blog
+<span class="nb">cd </span>my-blog
+bundle <span class="nb">exec </span>jekyll serve
+</code></pre></div></div>
+
+<p>Your site will be available at <code class="language-plaintext highlighter-rouge">http://localhost:4000</code>.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>GitHub Pages is a fantastic way to host your static websites for free. Combined with Jekyll, it provides a powerful platform for creating and maintaining blogs and documentation sites.</p>]]></content><author><name></name></author><category term="Web Development" /><category term="GitHub" /><summary type="html"><![CDATA[GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub, optionally runs the files through a build process, and publishes a website.]]></summary></entry></feed>
