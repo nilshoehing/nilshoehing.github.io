@@ -201,14 +201,22 @@ footer {
 .social-links {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .social-links a {
+    display: flex;
+    align-items: center;
     margin: 0 10px;
     color: var(--footer-color);
     text-decoration: none;
     transition: color 0.2s;
+}
+
+.social-links a svg {
+    margin-right: 6px;
+    width: 16px;
+    height: 16px;
 }
 
 .social-links a:hover {

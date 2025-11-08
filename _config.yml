@@ -22,7 +22,7 @@ kramdown:
 permalink: /:year/:month/:day/:title/
 
 # Pagination
-paginate: 3
+paginate: 5
 paginate_path: "/page/:num/"
 
 # Plugins
