@@ -8,7 +8,12 @@ layout: default
     <article class="post">
         
         <h1 class="post-title">{{ page.title }}</h1>
-        <p class="post-meta">{{ page.date | date: "%B %d, %Y" }}</p>
+        <p class="post-meta">
+            Published: {{ page.date | date: "%B %d, %Y" }}
+            {% if page.last_modified_at and page.last_modified_at != page.date %}
+            • Updated: {{ page.last_modified_at | date: "%B %d, %Y" }}
+            {% endif %}
+        </p>
 
         {% if page.featured_image %}
         <img src="{{ page.featured_image | relative_url }}" alt="Featured Image" class="featured-image">

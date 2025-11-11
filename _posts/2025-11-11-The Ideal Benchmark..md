@@ -3,6 +3,7 @@ layout: post
 title: The Ideal Benchmark
 date: 2025-11-11
 featured_image: /assets/images/benchmark-red.webp
+last_modified_at: 2025-11-11
 ---
 # Benchmarks
 A benchmark is a systematic test of capabilities, usually automated, that compares the performance of different models. The main capabilities we care about are understanding queries and producing correct responses, but we can also test auxiliary capabilities like helpfulness, robustness, ethical behavior, compliance with rules, and more. Benchmarks are very similar to evaluations, but the latter are typically tests that ensure the quality of a specific product within a company and are therefore composed of test cases on many levels (unit tests, capability tests, API tests, etc.) instead of only capability tests.
@@ -132,7 +133,7 @@ You can also filter by individual words in the inputs to discover interesting pa
 
 
 # Documentation
-Add a clear statement of your benchmark's scope. Consider the implicit decisions made during data collection: which countries or contexts were included? Did you test the broad phenomenon claimed in the title or only a narrower subset? These distinctions matter because models do not necessarily generalise across contexts such as Western vs. non-Western objects. Failing to test for this often reveals that models did not generalize as broadly as assumed later.
+Add a clear statement of your benchmark's scope. Consider the implicit decisions made during data collection: which countries or contexts were included? Did you test the broad phenomenon claimed in the title or only a narrower subset? These distinctions matter because models do not necessarily generalize across contexts such as Western vs. non-Western objects. Failing to test for this often reveals that models did not generalize as broadly as assumed later.
 Proper documentation helps users interpret the significance of benchmark results for their use case. It is especially important for non-technical stakeholders, so they can understand both what was tested and what was not.
 
 
