@@ -1,7 +1,7 @@
 # _data/navigation.yml
-- name: Home
+- name: Blog
   link: /
+- name: Projects
+  link: /projects/
 - name: About
   link: /about/
-- name: Archive
-  link: /archive/

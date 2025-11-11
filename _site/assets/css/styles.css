@@ -249,14 +249,111 @@ footer {
 }
 
 
-.post-content h1, 
+.post-content h1 {
+    border-bottom: 1px solid #6c757d; /* Thin gray border for h1 */
+    padding-bottom: 0.5em; 
+    margin-bottom: 1em; 
+}
+
 .post-content h2 {
-    border-bottom: 1px solid var(--border-color);
+    border-bottom: 1px solid #6c757d; /* Thin gray border for h2 */
+    padding-bottom: 0.5em; 
+    margin-bottom: 1em; 
+}
+
+.post-content h3 {
+    border-bottom: 1px solid var(--border-color); /* Light border for h3 */
     padding-bottom: 0.5em; 
     margin-bottom: 1em; 
 } 
 
 .post-content p {
     margin-bottom: 1em; /* Adjust this value for more/less space */
+}
+
+/* Projects page styles */
+.page-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.page-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.page-header p {
+    color: #6c757d;
+    font-size: 1.1rem;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.project-card {
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+    background: white;
+}
+
+.project-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.project-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.project-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.project-content {
+    padding: 20px;
+}
+
+.project-title {
+    font-size: 1.4rem;
+    margin-bottom: 12px;
+    color: var(--text-color);
+}
+
+.project-preview {
+    color: #6c757d;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.external-link-indicator {
+    color: var(--primary-color);
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.project-link:hover .external-link-indicator {
+    opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .page-header h1 {
+        font-size: 2rem;
+    }
 }
 

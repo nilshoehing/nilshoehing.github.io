@@ -1,0 +1,11 @@
+# _data/projects.yml
+# Add your projects here following this format:
+
+- title: "Implemented RocketScience in openbench"
+  image: "/assets/images/implementrocketscience.png"
+  preview: "Merged into main."
+  link: "https://github.com/groq/openbench/pull/277"
+# - title: "TEST"
+#   image: "/assets/images/implementrocketscience.png"
+#   preview: "Merged into main."
+#   link: "https://github.com/groq/openbench/pull/277"

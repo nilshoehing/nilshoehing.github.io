@@ -1,0 +1,27 @@
+---
+layout: default
+title: Projects
+---
+
+{% include header.html %}
+
+<main>
+    <div class="projects-grid">
+        {% for project in site.data.projects %}
+        <article class="project-card">
+            <a href="{{ project.link }}" target="_blank" class="project-link">
+                {% if project.image %}
+                <img src="{{ project.image | relative_url }}" alt="{{ project.title }}" class="project-image">
+                {% endif %}
+                
+                <div class="project-content">
+                    <h3 class="project-title">{{ project.title }}</h3>
+                    <p class="project-preview">{{ project.preview }}</p>
+                </div>
+            </a>
+        </article>
+        {% endfor %}
+    </div>
+</main>
+
+{% include footer.html %}
