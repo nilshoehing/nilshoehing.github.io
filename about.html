@@ -46,12 +46,41 @@ title: About
             text-align: center;
         }
     }
+
+    /* CV Download Section Styles */
+    .cv-download-section {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .cv-download-btn {
+        display: inline-block;
+        padding: 10px 20px;
+        border: 1px solid var(--border-color);
+        background-color: white;
+        color: var(--text-color);
+        text-decoration: none;
+        font-weight: 500;
+        border-radius: 5px;
+        transition: color 0.2s, border-color 0.2s;
+    }
+
+    .cv-download-btn:hover {
+        color: darkgray;
+        border-color: darkgray;
+    }
 </style>
 
 <main>
     <div class="profile-container">
         <img src="/assets/images/profilecut.png" alt="Profile Picture" class="profile-image">
         <p class="profile-text">{{ site.about }}</p>
+    </div>
+    
+    <div class="cv-download-section">
+        <a href="{{ '/assets/documents/CV.pdf' | relative_url }}" class="cv-download-btn" download="cv_nils_hoehing.pdf">
+            Download CV
+        </a>
     </div>
 </main>
 
