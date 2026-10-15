@@ -1,6 +1,16 @@
 # _data/projects.yml
 # Add your projects here following this format:
 
+- title: "RocketScience"
+  image: "/assets/images/rocketscience-figure1-left.webp"
+  image_fit: "contain"
+  preview: "Contrastive benchmark for spatial reasoning in VLMs using real-world data."
+  link: "https://arxiv.org/abs/2509.02175"
+- title: "TopoBench"
+  image: "/assets/images/topobench-figure1.webp"
+  image_fit: "contain"
+  preview: "Synthetic benchmark for super long horizon spatial reasoning on board game puzzles with verifier based grading."
+  link: "https://arxiv.org/abs/2603.12133"
 - title: "Implemented RocketScience in openbench"
   image: "/assets/images/implementrocketscience.png"
   preview: "Merged into main."

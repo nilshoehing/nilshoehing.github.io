@@ -11,7 +11,7 @@ title: Projects
         <article class="project-card">
             <a href="{{ project.link }}" target="_blank" class="project-link">
                 {% if project.image %}
-                <img src="{{ project.image | relative_url }}" alt="{{ project.title }}" class="project-image">
+                <img src="{{ project.image | relative_url }}" alt="{{ project.title }}" class="project-image{% if project.image_fit == 'contain' %} project-image--contain{% endif %}">
                 {% endif %}
                 
                 <div class="project-content">

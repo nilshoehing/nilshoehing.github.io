@@ -320,6 +320,10 @@ footer {
     border-bottom: 1px solid var(--border-color);
 }
 
+.project-image--contain {
+    object-fit: contain;
+}
+
 .project-content {
     padding: 20px;
 }
